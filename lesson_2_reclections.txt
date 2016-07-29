@@ -5,3 +5,7 @@ By making it a git repository, you can use version control for any files you com
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is where files go that are ready to be committed. The working directory is the area where the files are edited and made changes on. The repository is the area that contains files that have been committed. The value is that version control can be tracked and viewed in the repository while the working directory is sort of the playground where one can change the code and try different things without making any commits and the staging area is where something is 'on deck' so as to confirm whether it will finally be a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use git status to check what is in the staging area and make sure that all the files are related to a single logical change.
