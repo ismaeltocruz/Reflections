@@ -17,3 +17,7 @@ Branches would be helpful when trying to experiment or add new features to the c
 How do the diagrams help you visualize the branch structure?
 
 Diagrams show how branches are related and when they first emerged. Diagrams also help to see what commits are related to a certain branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of a merge is that two different features or branches of work can be combined into one. We represent it in the diagram because creating a new branch goes on a different direction than the master branch and merging results in bringing those two branches together again.
