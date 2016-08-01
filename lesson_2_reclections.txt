@@ -21,3 +21,8 @@ Diagrams show how branches are related and when they first emerged. Diagrams als
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result of a merge is that two different features or branches of work can be combined into one. We represent it in the diagram because creating a new branch goes on a different direction than the master branch and merging results in bringing those two branches together again.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: faster, done on changes where there is clear distinction between the two files
+Cons: can be confusing when changes are done to the same feature or line of code and hence a conflict will emerge
