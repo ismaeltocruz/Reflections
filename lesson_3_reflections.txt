@@ -5,3 +5,9 @@ Using a remote repository would be useful when working on another computer or ha
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If there are some changes in the remote repository that I do not agree with, then it would be better to pull changes manually. For example, if a collaborator changed or deleted one of my files and I'm not in agreement to that, then having Git automatically update my local repo will delete my file. So it would be better to pull manually.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks: when making a copy of a repository on Github onto your own Github. Useful when you want to copy someone else's repo to make your own changes but not affect the original repo of the author.
+Clones: when making a copy of a repository on Github onto your local machine. Useful when you want to continue working on something while at the same time sharing it to the public.
+Branches: when making experimental changes that will be different from the master branch or are intended not to alter the master branch. Useful when playing around with code or trying something new without worrying that the original work will be altered.
