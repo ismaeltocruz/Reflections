@@ -19,3 +19,7 @@ It is useful when there are collaborators that make changes to the Github reposi
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 If I were to collaborate without using Git or GitHub, I would physically sit down with the collaborator and go through the same code. We would code together and run ideas through each other while working on the same file. This would be easier to communicate and run ideas by each other, however, it may be slow and time consuming since we would have to always agree on a time to meet up. With Git or GitHub, each one of us could work on our own first and then collaborate once we're done introducing our respective features or changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would want to make changes in a separate branch if I'm still testing out something and I may want to collaborate or get other people's feedback on my work. This way, I won't be changing anything in the master branch that is already working. The benefits of working on a separate branch is that I can take riskier steps in experimentation without worrying that it will affect my already working code in the master. However, making changes directly in master are beneficial when I want to consider the work of collaborators and include that in my experimental branch, such as in a pull request.
